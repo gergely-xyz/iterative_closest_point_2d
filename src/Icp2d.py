@@ -47,8 +47,6 @@ def icp(d1, d2, max_iterate = 100):
     
     knn = cv2.ml.KNearest_create()
     responses = np.array(range(len(d2[0]))).astype(np.float32)
-    print(src[0,0,0].size)
-    print(responses.size)
     knn.train(src[0],cv2.ml.ROW_SAMPLE, responses)
         
     Tr = np.array([[np.cos(0), -np.sin(0), 0],
