@@ -6,8 +6,8 @@ A 2D implementation of the Iterative Closest Points algorithm. It takes 2 sets o
 a transformation matrix. Applying said transformation to the second set of points will translate, rotate
 and scale them in such a way that the overall distance between the two shapes is as low as possible.
 
-![Before transformation](docs/Figure_1.png)
-![After transformation](docs/Figure_2.png)
+<img src="docs/Figure_1.png" alt="Before transformation" style="max-width: 49%;">
+<img src="docs/Figure_2.png" alt="After transformation" style="max-width: 49%;">
 
 # Required pacakges
 To use this script you will need numpy and OpenCV with its non free components. 
